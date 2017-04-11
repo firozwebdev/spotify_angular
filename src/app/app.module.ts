@@ -9,6 +9,7 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { SearchComponent } from './component/search/search.component';
 import {routing} from "./app.routing";
 
+
 @NgModule({
   declarations: [
     AppComponent,
