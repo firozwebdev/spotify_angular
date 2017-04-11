@@ -8,6 +8,7 @@ import { AboutComponent } from './component/about/about.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
 import { SearchComponent } from './component/search/search.component';
 import {routing} from "./app.routing";
+import { ArtistComponent } from './component/artist/artist.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {routing} from "./app.routing";
     AppComponent,
     AboutComponent,
     NavbarComponent,
-    SearchComponent
+    SearchComponent,
+    ArtistComponent
   ],
   imports: [
     BrowserModule,
