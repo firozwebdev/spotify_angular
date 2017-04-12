@@ -5,8 +5,7 @@ import { Album } from '../../../../Album';
 import { SpotifyService } from '../../services/spotify.service';
 @Component({
   selector: 'app-artist',
-  templateUrl: './artist.component.html',
-  styles: []
+  templateUrl: './artist.component.html'
 })
 export class ArtistComponent implements OnInit {
 
